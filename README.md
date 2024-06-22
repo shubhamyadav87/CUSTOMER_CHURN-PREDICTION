@@ -64,23 +64,6 @@ Required Python packages (listed in requirements.txt)
 Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/customer-churn-detection.git
-cd customer-churn-detection
-Create a virtual environment:
-
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-Install the required packages:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Data Preprocessing:
 
 Run the data_preprocessing.ipynb notebook to clean and preprocess the data.
 Exploratory Data Analysis (EDA):
@@ -89,7 +72,6 @@ Run the eda.ipynb notebook to visualize and understand the data.
 Model Training:
 
 Run the model_training.ipynb notebook to train and evaluate different machine learning models.
-Model Deployment:
 
 Run the model_deployment.ipynb notebook to deploy the best model for real-time predictions.
 Model Performance
